@@ -1,19 +1,14 @@
 <idea-plugin>
-    <id>com.github.chenhui0212.hllapimethodnavigator</id>
-    <name>hll-api-method-navigator</name>
-    <vendor>chenhui0212</vendor>
+    <id>com.github.max.hll.api-navigator</id>
+    <name>HLL API Navigator</name>
+    <vendor>MAX</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.chenhui0212.hllapimethodnavigator.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.chenhui0212.hllapimethodnavigator.services.MyProjectService"/>
+        <psi.referenceContributor implementation="com.github.max.api.navigator.reference.XmlApiReferenceContributor"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.chenhui0212.hllapimethodnavigator.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

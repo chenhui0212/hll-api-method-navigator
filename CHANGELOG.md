@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# hll-api-method-navigator Changelog
+# HLL API Navigator Changelog
 
 ## [Unreleased]
 ### Added

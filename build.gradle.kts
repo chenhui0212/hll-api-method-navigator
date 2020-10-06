@@ -54,8 +54,13 @@ intellij {
 
 //  Plugin Dependencies:
 //  https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_dependencies.html
-//
-//  setPlugins("java")
+
+    setPlugins("java")
+}
+
+sourceSets {
+    getByName("main").java.srcDirs("src/main/kotlin")
+    getByName("test").java.srcDirs("src/test/kotlin")
 }
 
 // Configure detekt plugin.
