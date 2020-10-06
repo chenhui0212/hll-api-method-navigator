@@ -5,8 +5,6 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/15172-hll-api-navigator)
 
 <!-- Plugin description -->
-[Plugin homepage](https://plugins.jetbrains.com/plugin/15172-hll-api-navigator)
-
 Navigate for HLL XML Web API
 
 Feature:
