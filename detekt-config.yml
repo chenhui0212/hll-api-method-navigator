@@ -3,7 +3,3 @@
 
 build:
   maxIssues: -1
-
-formatting:
-  Indentation:
-    active: true
