@@ -1,1 +1,1 @@
-rootProject.name = "HLL API Navigator"
+rootProject.name = "hll-api-navigator"

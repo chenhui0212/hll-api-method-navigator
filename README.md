@@ -5,10 +5,10 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/15172-hll-api-navigator)
 
 <!-- Plugin description -->
-Navigate for HLL XML Web API
+Navigation for HLL XML Web API
 
 Feature:
-- Jump from xml file method attribute to java method 
+- Jump between xml file attribute and corresponding java method.
 
 <!-- Plugin description end -->
 
