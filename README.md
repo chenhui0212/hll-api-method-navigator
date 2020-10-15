@@ -5,11 +5,13 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/15172-hll-api-navigator)
 
 <!-- Plugin description -->
-Navigation for HLL XML Web API
-
+<p>HLL API Navigator is a plugin for improving development efficiency in <a href="www.hualala.com">Hualala</a>
+    company FOR NOW. It can help you navigate from method attribute value in a xml file to corresponding java method.
+</p>
+<br>
+            
 Feature:
-- Jump between xml file attribute and corresponding java method.
-
+- Jump between xml file attribute value and corresponding java method.
 <!-- Plugin description end -->
 
 ## Installation
